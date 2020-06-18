@@ -1,0 +1,14 @@
+{
+  "name": "clintonpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "landingpage.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gabby",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

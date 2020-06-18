@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 50%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img1 {
+      background-image: url(images/130FE25E-537A-4310-9AE3-D3320B5F10F6.jpeg);
+  }
+  .img2 {
+      background-image: url(images/3EA872F6-89D1-44BB-9585-22DBAFE74538.jpeg);
+  }
+  .img3 {
+      background-image: url(images/9F3A82C3-CDFB-4A39-AF9B-7DEE2CAA3D0A.jpeg);
+  }
+  .img4 {
+      background-image: url(images/D0174BAD-B9F6-4EFC-B696-2A1189F5648C.jpeg);
+  }
+  .img5 {
+      background-image: url(images/mountains_flowers_trees.jpg);
+  }
+  .img6 {
+      background-image: url(images/trees.jpg);
+  }
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
